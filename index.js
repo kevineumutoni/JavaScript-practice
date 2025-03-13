@@ -72,14 +72,41 @@ console.log(v+w)//the output was 52
 let kevine="Umutoni"
 var age=21
 console.log(`My name is ${kevine} I am ${age}`)
+
 //let me practice adding numbers in square brackets and not in square brackets
+
 var fh= [1,23]
 var u=67
 console.log(fh+u)
-//experimentation
+
+//experimentation to find the type of our data
+
 var num = 23
 console.log(num)
 var mun = "23"
 console.log(mun)
 console.log(typeof(mun))
 console.log(typeof(num))
+
+//Another practice of knowing conversion
+
+let tax= 400
+let price="500"
+let uui=Number(tax)+Number(price)
+console.log(uui)
+//Lets try comparison of numbers
+console.log(90==90)
+console.log(90>=80)
+console.log(90>80)
+console.log(90<80)
+console.log(90<=80)
+console.log(90!=60)
+//Let's try comparison of strings
+console.log("ABC" == "ABC")
+console.log("ABC" == "abc")
+console.log("ABC" == "CBA")
+//lets try comparison with Booleans
+console.log(true== 1)
+console.log(false==1)
+console.log(true== 0)
+//important insights when you use one equal sign there will be a big error, so use 2 okay!!.
