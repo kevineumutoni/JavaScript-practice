@@ -10,7 +10,7 @@ console.log(2, "ABC", 3*5, "ABCDEF", 9*9)
 console.log("the output of 32 is 10+11 ", 21)
 console.log("Hello "+"I am Kevine "+ "I love myself " + "I believe in myself "+ "and God. ")
 console.log(name + " is very beautiful")
-// practicing numbers and integers in data types in JS
+// practicing numbers and integers in data types in JavaScript
 let y = 1.2;
 let x= 5;
 console.log(x+y)
@@ -115,9 +115,9 @@ console.log(true== 0)
 
 let school = "AkiraChix organisation";
 let citizens = String("I love my community");//string literal 
-let numwe=Number(23);
+let number1=Number(23);
 let success = Boolean(true)
-console.log(numwe);
+console.log(number1);
 console.log(school);
 console.log(citizens);
 console.log(success)
@@ -145,7 +145,7 @@ console.log(makerere.charAt(35));
 console.log(makerere.length -3)
 console.log(makerere.slice(2, 20))
 
-let university = "Actually there a bunch  q of schools in Rwanda istg but guess the number one school is Akirachix"
+let university = "Actually there a bunch of schools in Rwanda  but guess the number one school is AkiraChix"
 console.log(university.charAt(2));
 console.log(university.charAt(0));
 console.log(university.charAt(10));
@@ -163,13 +163,13 @@ console.log(university[23])
 
 let newWord = "  Kevine";
 console.log(university.concat(newWord))
-let beauty = "beautiful Kevine Umutoni very cutesy"
+let beauty = "I am Rwandan, but I am not afraid to say that Rwanda is the beautiful country in the world"
 console.log(university.concat(beauty))
 let heavy = "luggage to Kenya"
 console.log(beauty.concat(heavy))
 
 //let's practice slicing clearly, we use slicing to extract substrings from the string and also copy the string 
-let hyperbole = "M name is Kevine UMUTONI , beaut defines me, I define beauty."
+let hyperbole = "I love my president Paul Kagame may God bless him till the end may he long live."
 console.log(hyperbole.slice(0, 20));
 console.log(hyperbole.endsWith(w));
 console.log(hyperbole.startsWith("M"))
@@ -188,7 +188,7 @@ console.log(hyperbole.replace("beauty", "Kevine"))
 console.log(hyperbole.indexOf("y"))
 console.log(hyperbole.length)
 
-let sleep = "Good morning my beautiful sunshine you rock!"
+let sleep = "Good morning my beautiful Rwanda you rock!"
 console.log(sleep.indexOf("m"))//I am trying to know the index position of m in the string
 console.log(sleep.indexOf("k!"))//I am trying to know the index position of k in the string
 console.log(sleep.indexOf("morning"))// I am trying to know the index of morning in the string
@@ -200,10 +200,60 @@ console.log(sleep.slice(16, sleep.length -9))// I am trying to extract the strin
 console.log(sleep.replace("Good", "Hello"))//i am trying to replace hello by Good
 console.log(sleep.toUpperCase());//here I am converting to uppercase
 console.log(sleep.toLowerCase());
-console.log(sleep.length)// I am trying to know the length of the String
-console.log(sleep.indexOf("!"))// I am trying to know the indexOf ! in the string
-console.log(sleep.charAt(42))// I am trying to know the character at index position 42
-console.log(sleep.charAt(44))//I am trying to know the character at index position 44
-console.log(sleep.charAt(0))
-let herty = " "+ "I love you!"
-console.log(sleep.concat(herty))
+console.log(sleep.length);// I am trying to know the length of the String
+console.log(sleep.indexOf("!"));// I am trying to know the indexOf ! in the string
+console.log(sleep.charAt(42));// I am trying to know the character at index position 42
+console.log(sleep.charAt(44));//I am trying to know the character at index position 44
+console.log(sleep.charAt(0));
+let herty = " "+ "I love you!";
+console.log(sleep.concat(herty));
+
+//Let's go to string which returns array of substrings , It is used to split arrays.
+//split divides the string into multiple substrings
+console.log(sleep.split(""));
+console.log(sleep.split(" "))//it will split based on the blank space and return an array of substrings separated by the blank space, every word in its single quotes because it is an array.
+console.log(sleep.split("o"))//It will split from where letter "o is located"
+let alphaBet = "ABCDEFGHIKJLMOPQRSTUVWXYZ"
+console.log(alphaBet.split("O"))//It will split based where the character is spliting is located then the string with no specified character that is needed will have single quotes with a comma ''.
+console.log(alphaBet.split("A"))//The splitted word will be in replaced by '', then the rest will still be grouped together.
+console.log(alphaBet.split("Z"));//[ 'ABCDEFGHIKJLMOPQRSTUVWXY', '' ] thats the output its separated from the splitted word 
+let pharmacy = "aabbccddeeffjjgghhiikkkkllmmnnooppqqrrssttuuvvwwxxyyzz";
+let pharmac = pharmacy.split("k")
+console.log(pharmac);
+let newPharmacy = pharmacy.split("");
+console.log(newPharmacy);
+let heryuu= newPharmacy.reverse();
+console.log(heryuu);
+let flip = heryuu.join();
+console.log(flip);
+
+let bag = "I have a lot of books and many different things so most of the times I miss my bag a lot"
+let temu = bag.split(" ")
+console.log(temu)
+let teru = temu.reverse()
+console.log(teru)
+console.log(teru.join())
+
+console.log(bag.split(", "))
+console.log(bag.slice(0, bag.length))
+console.log(bag.slice(2, 20))
+console.log(bag.slice(10))
+console.log(bag.slice(0))
+console.log(bag.slice(-1))
+
+//Zaharah 's practice
+
+let come = "lets go to have tea break"
+// let zs = come.indexOf("r");
+// console.log(zs);
+let zs = come.charAt(11);
+console.log(zs);
+console.log(come.slice(-1))
+
+
+
+
+
+
+
+
