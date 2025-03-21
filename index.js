@@ -110,3 +110,100 @@ console.log(true== 1)
 console.log(false==1)
 console.log(true== 0)
 //important insights when you use one equal sign there will be a big error, so use 2 okay!!.
+
+//let's practice Strings 
+
+let school = "AkiraChix organisation";
+let citizens = String("I love my community");//string literal 
+let numwe=Number(23);
+let success = Boolean(true)
+console.log(numwe);
+console.log(school);
+console.log(citizens);
+console.log(success)
+
+
+ // We use .length to know the length of the string 
+
+let str1 = "Hello AkiraChix"
+console.log(str1.charAt(0))// we are accessing the first character in our string
+console.log(str1.slice(-1)) // we are accessing the last character in  the string
+console.log(str1.charAt(11))
+console.log(str1.indexOf("C"))
+
+let makerere = "All AkiraChix students will become the presidents of their nations in Jesus name Amen!!"
+//log the first and last number and state the index of f and the length of the string.
+console.log(makerere.charAt(0));
+console.log(makerere.slice(-1));
+console.log(makerere.length -1);
+console.log(makerere. charAt(20));
+console.log(makerere[2]);
+console.log(makerere[20]);
+console.log(makerere[86]);
+console.log(makerere[0]);
+console.log(makerere.charAt(35));
+console.log(makerere.length -3)
+console.log(makerere.slice(2, 20))
+
+let university = "Actually there a bunch  q of schools in Rwanda istg but guess the number one school is Akirachix"
+console.log(university.charAt(2));
+console.log(university.charAt(0));
+console.log(university.charAt(10));
+console.log(university.length -1)
+console.log(university.length);
+console.log(university.indexOf("q"));
+console.log(university.slice(3, 16));
+console.log(university.slice(1))// for slice if you don't specify you will not know where to stop
+console.log(university.charAt("A"));
+console.log(university.slice(-5));
+console.log(university.toUpperCase());
+console.log(university.toLowerCase());
+console.log(university.indexOf("A"));
+console.log(university[23])
+
+let newWord = "  Kevine";
+console.log(university.concat(newWord))
+let beauty = "beautiful Kevine Umutoni very cutesy"
+console.log(university.concat(beauty))
+let heavy = "luggage to Kenya"
+console.log(beauty.concat(heavy))
+
+//let's practice slicing clearly, we use slicing to extract substrings from the string and also copy the string 
+let hyperbole = "M name is Kevine UMUTONI , beaut defines me, I define beauty."
+console.log(hyperbole.slice(0, 20));
+console.log(hyperbole.endsWith(w));
+console.log(hyperbole.startsWith("M"))
+console.log(hyperbole.endsWith(10))
+console.log(hyperbole.endsWith("q"))
+console.log(hyperbole.startsWith(m))
+console.log(hyperbole.endsWith("."))
+console.log(hyperbole.indexOf("I define beauty."))
+console.log(hyperbole[12])
+console.log(hyperbole.slice(20))
+console.log(hyperbole.toUpperCase())
+console.log(hyperbole.toLowerCase())
+console.log(hyperbole.slice())
+console.log(hyperbole.length)
+console.log(hyperbole.replace("beauty", "Kevine"))
+console.log(hyperbole.indexOf("y"))
+console.log(hyperbole.length)
+
+let sleep = "Good morning my beautiful sunshine you rock!"
+console.log(sleep.indexOf("m"))//I am trying to know the index position of m in the string
+console.log(sleep.indexOf("k!"))//I am trying to know the index position of k in the string
+console.log(sleep.indexOf("morning"))// I am trying to know the index of morning in the string
+console.log(sleep.indexOf("Good morning"))//I am trying to know the index of "Good morning"
+console.log(sleep.slice(6))//I am trying to extract the substrings from position 6
+console.log(sleep.indexOf("beautiful"))//I am trying to know the index of "beautiful" in the string
+console.log(sleep.slice(16, sleep.length -2))// I am trying to extract the string starting from index  16 to the whole length to the previous character.
+console.log(sleep.slice(16, sleep.length -9))// I am trying to extract the string starting from index 16 to the whole length minus 9 characters.
+console.log(sleep.replace("Good", "Hello"))//i am trying to replace hello by Good
+console.log(sleep.toUpperCase());//here I am converting to uppercase
+console.log(sleep.toLowerCase());
+console.log(sleep.length)// I am trying to know the length of the String
+console.log(sleep.indexOf("!"))// I am trying to know the indexOf ! in the string
+console.log(sleep.charAt(42))// I am trying to know the character at index position 42
+console.log(sleep.charAt(44))//I am trying to know the character at index position 44
+console.log(sleep.charAt(0))
+let herty = " "+ "I love you!"
+console.log(sleep.concat(herty))
