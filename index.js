@@ -397,4 +397,77 @@ console.log(county.substr(2))
 console.log(county.search("s"))
 console.log(county.search("K"))
 
+//lets's practice splitting one more time
+
+const reversedString = "Hello"
+let splitString = reversedString.split("")
+console.log(splitString)
+let newReversedString = splitString.reverse()
+console.log(newReversedString)
+let newJoinString = newReversedString.join()
+console.log(newJoinString)
+console.log(reversedString.split("").reverse().join())
+
+//Let's use the for loop method 
+
+let forLoop = "Hello Kevine Umutoni" // the name of our string
+let looping = ""//It will hold the reversed string 
+for (let i = forLoop.length -1; i>=0; i--){
+    looping += forLoop[i]
+    console.log(looping)
+}
+console.log(forLoop.length -1)
+
+
+const DAS = "Hello beautiful Rwanda we miss you!";
+let DAAS = ""; // it's better if we use let not const okayy
+
+for (let i = DAS.length - 1; i >= 0; i--) {
+    DAAS += DAS[i]; 
+    console.log(DAAS);
+}
+
+//lets use for loop
+
+let Queen = "Keza Queen";// my variable 
+let Keza = "";
+
+for (let k = Queen.length -1; k>=0; k--) {
+    Keza += Queen[k]
+    console.log(Keza)
+}
+
+let newQueen = Queen.split("")
+let newKeza = newQueen.reverse()
+let newKezaQueen = newKeza.join()
+console.log(newKezaQueen)
+
+//reversing using split, join, and reverse
+
+let remote = "UMUTONI"
+let etomer= "" // it will hold the new reversed variable
+
+for (let z= remote.length -1; z>=0; z--){
+    etomer += remote[z]
+    console.log(etomer)
+}
+let sweetness = "Kigali"
+let sweet = ""
+for (let u= sweetness.length -1; u>=0; u--){
+    sweet += sweetness[u]
+    console.log(sweet)
+}
+
+for (let s = 0; s<=sweetness.length; s++){
+    sweet += sweetness[s]
+    console.log(sweet)
+}
+let getHelp = "My name is \"Kevine\""
+let studentNew = "I love my new school \"AkiraChix\""
+console.log(studentNew)
+console.log(getHelp)
+
+
 //GOOD JOB KEVINE
+
+//let's go to practicing questions
