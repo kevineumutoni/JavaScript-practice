@@ -249,11 +249,69 @@ let come = "lets go to have tea break"
 let zs = come.charAt(11);
 console.log(zs);
 console.log(come.slice(-1))
+let tired = "boredom"
+let night = String("Hello Kigali")
+console.log(night.concat(tired))
+//we use charAt and [] e.g 
+console.log(tired.charAt(2))
+console.log(tired.charAt(6))
+console.log(tired.charAt(4))
+console.log(tired.slice(-1))
+console.log(tired[2])
 
+//we can compare strings  using if statements 
+const stringOnes= "ABC"
+const stringTwo = "abc"
 
+if (stringOnes < stringTwo){
+    console.log("I love JavaScript language")
 
+}
+else if(stringOnes > stringTwo){
+    console.log("I don't love JavaScript language")
 
+}
 
+else{
+    console.log("JavaScript is a  bit hard")
+}
 
+//we can also compare some numbers too
+ const numeric1 = 80;
+ const numeric2 = 80;
 
+ if (numeric1>numeric2){
+    console.log("This is  easy bruv")
+ }
+else if(numeric1<numeric2){
+    console.log("I love my nation")
+}
+else{
+    console.log("I am in Kenya Nairobi")
+}
+console.log(stringTwo.toUpperCase())
+//Good job Kevine practice makes perfect.
+//let me practice comparing strings are strictly equal to
 
+const strictlyEqualTo = "I love JavaScript"
+const strictlyNotEqualTo = "I love drill music"
+
+if (strictlyEqualTo===strictlyNotEqualTo){
+    console.log("We did good")
+}
+else if (strictlyEqualTo!==strictlyNotEqualTo){
+    console.log("not that much")
+}
+else{
+    console.log("Okay")
+}
+
+// we can use this way to print a string.
+
+const authentication = String(100)
+const authentic = String(true)
+console.log(typeof authentic)
+console.log(authentic)
+
+console.log(authentication)
+console.log(typeof authentication)
