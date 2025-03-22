@@ -467,7 +467,13 @@ let studentNew = "I love my new school \"AkiraChix\""
 console.log(studentNew)
 console.log(getHelp)
 
+var myNAME;
+console.log(typeof myNAME)
 
+let push = ["hello", "world", "!"]
+push.push("okay")
+console.log(push)
 //GOOD JOB KEVINE
 
 //let's go to practicing questions
+
