@@ -344,3 +344,55 @@ console.log(String(any))//it brought a String output
 
 //let's go to string templates we use backtick `` characters instead of "" 
 console.log("string text line 1\n" + "string text line 2");
+//we use \n to log on a new line
+
+//let's try using string interpolation
+
+let abyy = 45;
+let yyba = 45;
+console.log("I love mathematics "+(abyy+yyba)+" so much")
+console.log(`i love coding so much ${abyy+yyba} sometimes`)
+
+let products = "Google Pixel phones because they are very top notch phones"
+console.log(`I love ${products.at(-1)}`)//we use at to know the character located at that number we input.
+console.log(`I love ${products.slice(-2, -1)}`)//we use slice to extract substrings.
+console.log(`I love ${products.indexOf("G")}`);//it will tell me the index position of the character inputed
+
+const story = "The quick brown fox jumps over the lazy dog";
+const newStory= story.toLowerCase();
+const newUpdatedStory = newStory.split("the").length -1
+console.log(newUpdatedStory)
+//the input we put in the split brackets is called delimiter()
+console.log(products.charAt(10))
+console.log(products.at(-4))
+console.log(products.charCodeAt("P"))
+//NaN means not a number
+let concat1 = "Hello world I love you"
+let concat2 = "World"
+let concat3 = "Hello"
+console.log(concat1.concat(" ",concat2 ))
+console.log(concat1.startsWith("H"))
+console.log(concat2.endsWith("d"))
+console.log(concat1.endsWith("f"))
+console.log(concat1.includes("d"))
+console.log(concat1.includes("l"))
+console.log(concat1.indexOf("H"))
+console.log(concat1.lastIndexOf("y"))
+console.log(concat1.lastIndexOf("Hello"))
+console.log(concat1.localeCompare(concat3))
+console.log(concat2.localeCompare(concat3))
+
+//padEnd add more spaces at the end
+const concat5 = "done"
+
+console.log(concat5.padStart(50, "food"))
+console.log("Hello World".padEnd(50, "hello beauty"))
+console.log(concat1.repeat(5))
+const county = "Kisumu"
+console.log(county.replace("Kisumu", "Kenya"))
+console.log(concat1.replace("Hello", "Hi"))
+//the first is the old value then the next is the new value
+console.log(concat1.substr(0,1))
+console.log(county.substr(2))
+console.log(county.search("s"))
+console.log(county.search("K"))
