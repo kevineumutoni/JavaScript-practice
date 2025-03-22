@@ -326,6 +326,8 @@ console.log(typeof authenticity)//its an Object
 const stringNew = new String("2 +2");
 const stringNew1 = String("2+2");
 const newString1 = ("2+2")
+const nwString = "4"
+const any = 69
 
 // console.log(eval(newString));
 //we use eval to execute or evaluate a String
@@ -335,3 +337,10 @@ console.log(eval(stringNew));
 console.log(eval(stringNew1))//it will output 4
 console.log(stringNew1);
 console.log(newString1)
+console.log(Number(newString1))
+console.log(Number(nwString))//It returned NaN (not a number)
+console.log(String(any))//it brought a String output
+//Good job Kevine
+
+//let's go to string templates we use backtick `` characters instead of "" 
+console.log("string text line 1\n" + "string text line 2");
