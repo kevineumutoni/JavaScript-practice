@@ -310,8 +310,28 @@ else{
 
 const authentication = String(100)
 const authentic = String(true)
+
 console.log(typeof authentic)
 console.log(authentic)
-
-console.log(authentication)
 console.log(typeof authentication)
+console.log(authentication)
+
+
+
+
+//objects can store data and has  properties and it can have functions, that's when we call them methods
+//we use new then String to create an Object.
+const authenticity = new String("electricity")
+console.log(typeof authenticity)//its an Object
+const stringNew = new String("2 +2");
+const stringNew1 = String("2+2");
+const newString1 = ("2+2")
+
+// console.log(eval(newString));
+//we use eval to execute or evaluate a String
+//Instead of converting to  a Number we can use eval function to evaluate the Strings or numbers
+
+console.log(eval(stringNew));
+console.log(eval(stringNew1))//it will output 4
+console.log(stringNew1);
+console.log(newString1)
