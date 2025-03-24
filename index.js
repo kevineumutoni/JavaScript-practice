@@ -521,3 +521,27 @@ let accessment = "Easier and beginner friendly"
 let acces = accessment.split(/[eia]/g).join()
 console.log(acces)
 //Good job on removing something thank you
+
+//2. Write a program that counts how many times a letter appears in a string.
+//Example: "banana", "a" → 3
+
+let banana = "banana"
+let newBanana = banana.split("a").length -1
+console.log(newBanana)//wowwww kudos Kevine
+
+//3. Write a program that capitalizes the first letter of every word in a sentence.
+//Example: "hello world" → "Hello World"
+
+ let CapitalWord = "hello world";
+ let wordsArray = CapitalWord.split(" "); // Split the sentence into words
+ let capitalizedWordsArray = wordsArray.map(word => word.charAt(0).toUpperCase() + word.slice(1)); // Capitalize the first letter of each word
+ let capitalizedSentence = capitalizedWordsArray.join(" "); // Join the words back into a sentence
+ console.log(capitalizedSentence); // Output: "Hello World"
+
+ let CapitalWordf = "hello world";
+ let wordsArrayf = CapitalWordf.split(" "); // Split the sentence into words
+ for (let i = 0; i < wordsArrayf.length; i++) {
+     wordsArrayf[i] = wordsArrayf[i].charAt(0).toUpperCase() + wordsArrayf[i].slice(1); 
+ let capitalizedSentences = wordsArrayf.join(" "); // Join the words back into a sentence
+ console.log(capitalizedSentences); // Output: "Hello World"
+ }
