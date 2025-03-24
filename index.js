@@ -512,3 +512,12 @@ let phoneNew = apple.split(/[i]/g).join()
 console.log(newPhone);
 console.log(phoneNew);
 //Good job Kevine
+
+let assessment = "Easier and beginner friendly"
+let assess = assessment.replace(/[ei]/gi, "")
+console.log(assess) //the output will be asr and bgnner frndly
+
+let accessment = "Easier and beginner friendly"
+let acces = accessment.split(/[eia]/g).join()
+console.log(acces)
+//Good job on removing something thank you
