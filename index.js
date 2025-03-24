@@ -477,3 +477,38 @@ console.log(push)
 
 //let's go to practicing questions
 
+let stacks = [1,2,3,5]
+stacks.push(4)
+console.log(stacks)
+
+let notStuck = ["I", "am", "not", "stack"]
+notStuck.push("again")
+console.log(notStuck)
+
+//1. Write a program that removes all vowels from a string.
+//Example: "Hello World" → "Hll Wrld"
+let vowels = "Hello World";
+let vow= vowels.replace(/[aeiouAEIOU]/g, "")
+console.log(vow)
+
+let television = "Hello world"
+let newTelevision = television.split(/[aeiouAEIOU]/g).join()
+console.log(newTelevision)
+//so you can use split or replace but I think replace is better 
+
+let laptop = "macbook and HP are the best for me because of their interface"
+let lapTop = laptop.replace(/[a]/g, "")
+console.log(lapTop)
+
+let samsung = "made from South Korea"
+let bts = samsung.split(/[aeiou]/g).join()
+console.log(bts)
+
+//another last practice about replacing
+
+let apple = "iPhone i not i samsung"
+let newPhone = apple.replace(/[i]/g, "")
+let phoneNew = apple.split(/[i]/g).join()
+console.log(newPhone);
+console.log(phoneNew);
+//Good job Kevine
